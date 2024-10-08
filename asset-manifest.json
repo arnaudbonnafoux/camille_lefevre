@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arnaudbonnafoux/camille_lefevre.git/static/css/main.546caff7.css",
+    "main.js": "/arnaudbonnafoux/camille_lefevre.git/static/js/main.1970e97a.js",
+    "static/js/453.8977bc41.chunk.js": "/arnaudbonnafoux/camille_lefevre.git/static/js/453.8977bc41.chunk.js",
+    "index.html": "/arnaudbonnafoux/camille_lefevre.git/index.html",
+    "main.546caff7.css.map": "/arnaudbonnafoux/camille_lefevre.git/static/css/main.546caff7.css.map",
+    "main.1970e97a.js.map": "/arnaudbonnafoux/camille_lefevre.git/static/js/main.1970e97a.js.map",
+    "453.8977bc41.chunk.js.map": "/arnaudbonnafoux/camille_lefevre.git/static/js/453.8977bc41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.546caff7.css",
+    "static/js/main.1970e97a.js"
+  ]
+}
