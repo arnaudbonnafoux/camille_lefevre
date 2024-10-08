@@ -7,11 +7,10 @@ import Paintings from './pages/Paintings';
 import Sculptures from './pages/Sculptures';
 import './App.css';
 
-
-
 function App() {
   return (
 /*<Router>*/
+     
       <Router basename="/camille_lefevre">
       <div>
         <Navbar /> {/* Affiche la barre de navigation */}
