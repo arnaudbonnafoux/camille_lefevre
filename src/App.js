@@ -11,7 +11,8 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+/*<Router>*/
+      <Router basename="/camille_lefevre">
       <div>
         <Navbar /> {/* Affiche la barre de navigation */}
         <Routes>
