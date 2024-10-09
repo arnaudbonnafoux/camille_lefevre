@@ -1,0 +1,24 @@
+.footer {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    padding: 1rem; /* Espacement interne */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0; /* Espacement vertical entre les paragraphes */
+    font-size: 0.9rem; /* Taille de la police */
+  }
+  
+  .footer-email {
+    color: #fff; /* Garde la couleur du texte en blanc */
+    text-decoration: underline; /* Souligne le lien pour le rendre visible */
+  }
+  
+  .footer-email:hover {
+    color: #5A9BD4; /* Change la couleur lorsque la souris est dessus */
+  }
+  

@@ -1,6 +1,68 @@
-.painting-img, .sculpture-img {
-  width: 300px; /* Largeur fixe */
-  height: 300px; /* Hauteur fixe */
-  object-fit: cover; /* Maintient le ratio tout en remplissant la dimension */
-  margin: 10px; /* Espacement autour des images */
+/* Couleurs et typographie */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9; /* Fond clair pour un meilleur contraste */
+  padding: 3%;
+  margin: 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #5A9BD4;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Mise en page des images et du texte.*/
+.art-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px; /* Espace entre chaque élément */
+  border-bottom: 1px solid #ddd; /* Ligne de séparation entre les éléments */
+  padding: 16px 0;
+}
+
+.art-image {
+  width: 300px; /* Ajuste selon la taille souhaitée pour tes images */
+  height: auto;
+  border-radius: 8px; /* Coins arrondis pour un effet plus doux */
+  margin-right: 55px; /* Espace entre l'image et le texte */
+}
+
+.art-description {
+  max-width: 600px; /* Limite la largeur du texte pour une meilleure lisibilité */
+}
+
+.art-description h3 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.art-description p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+}
+
+
