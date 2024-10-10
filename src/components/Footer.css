@@ -1,24 +1,59 @@
+/* Footer */
 .footer {
-    background-color: #333; /* Couleur de fond */
-    color: #fff; /* Couleur du texte */
-    text-align: center; /* Centrer le texte */
-    padding: 1rem; /* Espacement interne */
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #333; /* Couleur de fond */
+  color: #ffffff; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  padding: 1.5rem 1rem; /* Espacement interne plus généreux */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0.5rem 0; /* Espacement vertical entre les paragraphes */
+  font-size: 0.9rem; /* Taille de la police */
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #5A9BD4; /* Change la couleur au survol */
+}
+
+.footer-email {
+  color: #ffffff; /* Garde la couleur du texte en blanc */
+  text-decoration: underline; /* Souligne le lien pour le rendre visible */
+  transition: color 0.3s ease;
+}
+
+.footer-email:hover {
+  color: #5A9BD4; /* Change la couleur lorsque la souris est dessus */
+}
+
+/* Responsivité du footer */
+/* Pour les écrans de moins de 768px */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    padding: 1rem; /* Moins d'espace pour les petits écrans */
   }
-  
-  .footer p {
-    margin: 0.5rem 0; /* Espacement vertical entre les paragraphes */
-    font-size: 0.9rem; /* Taille de la police */
+
+  .footer-links {
+    flex-direction: column; /* Affiche les liens en colonne */
+    gap: 10px; /* Moins d'espace entre les liens */
   }
-  
-  .footer-email {
-    color: #fff; /* Garde la couleur du texte en blanc */
-    text-decoration: underline; /* Souligne le lien pour le rendre visible */
-  }
-  
-  .footer-email:hover {
-    color: #5A9BD4; /* Change la couleur lorsque la souris est dessus */
-  }
-  
+}

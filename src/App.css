@@ -30,9 +30,10 @@ h3 {
 
 p {
   text-align: justify;
+  color: #555;
 }
 
-/* Mise en page des images et du texte.*/
+/* Mise en page des images et du texte */
 .art-item {
   display: flex;
   align-items: center;
@@ -65,4 +66,45 @@ p {
   color: #555;
 }
 
+/* Responsivité */
+/* Pour les tablettes (écrans entre 600px et 768px) */
+@media (max-width: 768px) {
+  .art-item {
+    flex-direction: column; /* Affiche l'image et le texte en colonne */
+    align-items: center; /* Centre les éléments */
+    text-align: center; /* Centre le texte */
+  }
 
+  .art-image {
+    width: 80%; /* Ajuste la taille de l'image pour qu'elle prenne 80% de la largeur */
+    margin-right: 0; /* Supprime la marge droite pour centrer l'image */
+    margin-bottom: 16px; /* Ajoute de l'espace sous l'image */
+  }
+
+  .art-description {
+    max-width: 90%; /* Ajuste la largeur du texte pour qu'il ne soit pas trop large */
+  }
+}
+
+/* Pour les mobiles (écrans de moins de 600px) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem; /* Ajuste la taille des titres pour les petits écrans */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .art-image {
+    width: 100%; /* L'image prend toute la largeur de l'écran */
+  }
+
+  .art-description {
+    padding: 0 10px; /* Ajoute un peu de padding pour que le texte ne touche pas les bords */
+  }
+}
