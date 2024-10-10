@@ -2,11 +2,11 @@
 .footer {
   background-color: #333; /* Couleur de fond */
   color: #ffffff; /* Couleur du texte */
-  text-align: center; /* Centrer le texte */
-  padding: 1.5rem 1rem; /* Espacement interne plus généreux */
+  /*text-align: center; /* Centrer le texte */
+  /*padding: 1.5rem 1rem; /* Espacement interne plus généreux */
   position: relative;
   bottom: 0;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .footer p {
