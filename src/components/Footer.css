@@ -3,16 +3,14 @@
   background-color: #333; /* Couleur de fond */
   background: linear-gradient(to right, #333, #5A9BD4);
   color: #ffffff; /* Couleur du texte */
-  /*text-align: center; /* Centrer le texte */
   padding: 1.5rem 1rem; /* Espacement interne plus généreux */
   position: relative;
   bottom: 0;
-  /*width: 100%;*/
-
 }
 
 .footer p {
-  margin: 0.5rem 0; /* Espacement vertical entre les paragraphes */
+  margin-left: 10px;
+  margin: 0.5rem; /* Espacement vertical entre les paragraphes */
   font-size: 0.9rem; /* Taille de la police */
 }
 
@@ -50,6 +48,7 @@
 /* Pour les écrans de moins de 768px */
 @media (max-width: 768px) {
   .footer {
+
     text-align: center;
     padding: 1rem; /* Moins d'espace pour les petits écrans */
   }
