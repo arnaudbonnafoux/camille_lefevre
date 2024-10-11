@@ -44,7 +44,7 @@ p {
 }
 
 .art-image {
-  width: 300px; /* Ajuste selon la taille souhaitée pour tes images */
+  width: 400px; /* Ajuste selon la taille souhaitée pour tes images */
   height: auto;
   border-radius: 25px; /* Coins arrondis pour un effet plus doux */
   margin-right: 55px; /* Espace entre l'image et le texte */
@@ -101,7 +101,7 @@ p {
   }
 
   .art-image {
-    width: 100%; /* L'image prend toute la largeur de l'écran */
+    width: 90%; /* L'image prend toute la largeur de l'écran */
   }
 
   .art-description {
