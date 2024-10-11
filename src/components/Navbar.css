@@ -1,7 +1,7 @@
 /* App.css */
 /* Navbar */
 .navbar {
-  background-color: #333;
+  background: linear-gradient(to left, #333, #5A9BD4);
   display: flex;
   justify-content: space-between;
   align-items: center;
