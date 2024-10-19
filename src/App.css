@@ -39,7 +39,7 @@ p {
   justify-content: center;
   margin-bottom: 24px; /* Espace entre chaque élément */
   border-bottom: 1px solid #ddd; /* Ligne de séparation entre les éléments */
-  padding: 16px 0; 
+  padding: 16px 16px; 
 }
 
 .art-image {
@@ -48,6 +48,7 @@ p {
   height: auto;
   border-radius: 25px; /* Coins arrondis pour un effet plus doux */
   margin-right: 55px; /* Espace entre l'image et le texte */
+
 }
 
 .art-description {
@@ -65,6 +66,7 @@ p {
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   color: #555;
+
 }
 
 /* Responsivité */
