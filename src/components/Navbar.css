@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-  background: linear-gradient(to left, #333, #5A9BD4);
+  background-color: #ACEDFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
