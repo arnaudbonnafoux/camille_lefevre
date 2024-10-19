@@ -8,7 +8,9 @@ function Footer() {
       <p>
         <a href="mailto:contact@camillelefevre.com" className="footer-email">contact@camillelefevre.com</a>
       </p>
-      <p>&copy; 2024 Camille Lefèvre. Tous droits réservés.</p>
+      <p> &copy; 2024 duanrA. Ce projet est sous 
+        <a href="https://opensource.org/licenses/MIT" target="_blank">licence MIT</a>.
+        </p>
     </footer>
   );
 }
