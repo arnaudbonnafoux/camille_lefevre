@@ -7,7 +7,7 @@
 }
 
 .footer p {
-  color: #f5f5f5;
+  color: #05034F;
   margin-left: 10px;
   margin: 0.5rem; /* Espacement vertical entre les paragraphes */
   font-size: 0.9rem; /* Taille de la police */
@@ -23,24 +23,24 @@
 }
 
 .footer-links a {
-  color: #ffffff;
+  color: #05034F;
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: #5A9BD4; /* Change la couleur au survol */
+  color: #f5f5f5; /* Change la couleur au survol */
 }
 
 .footer-email {
-  color: #f5f5f5; /* Garde la couleur du texte en blanc */
+  color: #05034F; /* Garde la couleur du texte en blanc */
   text-decoration: underline; /* Souligne le lien pour le rendre visible */
   transition: color 0.3s ease;
 }
 
 .footer-email:hover {
-  color: #5A9BD4; /* Change la couleur lorsque la souris est dessus */
+  color: #f5f5f5; /* Change la couleur lorsque la souris est dessus */
 }
 
 /* Responsivité du footer */
@@ -55,5 +55,9 @@
   .footer-links {
     flex-direction: column; /* Affiche les liens en colonne */
     gap: 10px; /* Moins d'espace entre les liens */
+  }
+
+  .footer p {
+    font-size: 0.7em;
   }
 }
