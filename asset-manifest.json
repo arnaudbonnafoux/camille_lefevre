@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/camille_lefevre/static/css/main.d1826266.css",
-    "main.js": "/camille_lefevre/static/js/main.d3601756.js",
+    "main.css": "/camille_lefevre/static/css/main.7a6b24ce.css",
+    "main.js": "/camille_lefevre/static/js/main.fa844418.js",
     "static/js/453.8977bc41.chunk.js": "/camille_lefevre/static/js/453.8977bc41.chunk.js",
+    "static/media/instagram_icon.svg": "/camille_lefevre/static/media/instagram_icon.9b97942d29fbfd31b4ef2e55bfae4b92.svg",
     "index.html": "/camille_lefevre/index.html",
-    "main.d1826266.css.map": "/camille_lefevre/static/css/main.d1826266.css.map",
-    "main.d3601756.js.map": "/camille_lefevre/static/js/main.d3601756.js.map",
+    "static/media/mail_icon.svg": "/camille_lefevre/static/media/mail_icon.71ecf06ee106365a8b0081c38ab321a8.svg",
+    "main.7a6b24ce.css.map": "/camille_lefevre/static/css/main.7a6b24ce.css.map",
+    "main.fa844418.js.map": "/camille_lefevre/static/js/main.fa844418.js.map",
     "453.8977bc41.chunk.js.map": "/camille_lefevre/static/js/453.8977bc41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1826266.css",
-    "static/js/main.d3601756.js"
+    "static/css/main.7a6b24ce.css",
+    "static/js/main.fa844418.js"
   ]
 }
