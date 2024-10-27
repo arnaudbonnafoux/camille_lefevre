@@ -1,16 +1,15 @@
 /* Footer */
 .footer {
   background-color: #ACEDFF;
-  padding: 1.5rem 1rem; /* Espacement interne plus généreux */
+  padding: 1.5rem 1rem;
   position: relative;
   bottom: 0;
 }
 
 .footer p {
   color: #05034F;
-  margin-left: 10px;
-  margin: 0.5rem; /* Espacement vertical entre les paragraphes */
-  font-size: 0.9rem; /* Taille de la police */
+  margin: 0.5rem 10px; /* Espacement entre les paragraphes */
+  font-size: 0.5rem;
 }
 
 .footer-links {
@@ -30,34 +29,52 @@
 }
 
 .footer-links a:hover {
-  color: #f5f5f5; /* Change la couleur au survol */
+  color: #f5f5f5;
 }
 
 .footer-email {
-  color: #05034F; /* Garde la couleur du texte en blanc */
-  text-decoration: underline; /* Souligne le lien pour le rendre visible */
+  color: #05034F;
+  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 .footer-email:hover {
-  color: #f5f5f5; /* Change la couleur lorsque la souris est dessus */
+  color: #f5f5f5;
+}
+
+/* Aligner l'e-mail et l'icône Instagram sur la même ligne */
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px; /* Espacement entre les éléments */
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+  
+}
+
+.footer-logo:hover {
+  transform: scale(1.1); /* Effet d'agrandissement au survol */
 }
 
 /* Responsivité du footer */
 /* Pour les écrans de moins de 768px */
 @media (max-width: 768px) {
   .footer {
-
     text-align: center;
-    padding: 1rem; /* Moins d'espace pour les petits écrans */
+    padding: 1rem;
   }
 
   .footer-links {
-    flex-direction: column; /* Affiche les liens en colonne */
-    gap: 10px; /* Moins d'espace entre les liens */
+    flex-direction: column;
+    gap: 10px;
   }
 
   .footer p {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
 }
