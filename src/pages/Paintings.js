@@ -8,9 +8,9 @@ function Paintings() {
       <img src="images/peinture_1.jpg" alt="Painting n°1" class="art-image" />
       <div className="art-description">
       <h3>Éphémère Céleste</h3>
-      <p>Une peinture abstraite où les tons de bleu et de vert se mélangent pour évoquer les murmures de la nature. 
-      À travers des traits fluides et des textures en relief, Camille Lefèvre invite le spectateur à un voyage introspectif, 
-      où chaque détail semble résonner comme un écho lointain.</p>
+      <p>Pictura abstracta, ubi caerulei et viridis toni miscentur ad naturae susurros evocandos.
+      Per lineas fluidas et texturas in relief, Camilla Lefèvre spectatorem ad introspectivum iter invitat,
+      ubi singulae partes resonare videntur tamquam echo remotus.</p>
       </div>
       </div>
 
@@ -18,9 +18,9 @@ function Paintings() {
       <img src="images/peinture_2.jpg" alt="Painting n°2" class="art-image" />
       <div className="art-description">
       <h3>Reflet d'Azur</h3>
-      <p>Dans cette œuvre, Camille utilise des teintes douces de pastel pour représenter des fragments de mémoire. 
-          Les formes floues et les couleurs tamisées créent une atmosphère mélancolique, 
-          comme un rêve où les souvenirs se dissolvent peu à peu dans le temps.</p>
+      <p>In hoc opere, Camilla coloribus mollibus pastelli utitur ad fragmenta memoriae repraesentanda.
+      Formae indistinctae et colores sublucentes atmosphaeram melancholicam creant,
+      quasi somnium in quo memoriae sensim in tempore dissolvuntur.</p>
       </div>
       </div>
 
@@ -28,9 +28,9 @@ function Paintings() {
       <img src="images/peinture_3.jpg" alt="Painting n°3" class="art-image" />
       <div className="art-description">
       <h3>Murmure de l'Aube</h3>
-      <p>Cette peinture joue sur les contrastes entre ombre et lumière, avec des touches de jaune vif qui tranchent sur un fond sombre. 
-          Camille cherche à capter l'éphémère, 
-          ces instants fugaces où la lumière révèle une nouvelle dimension du monde qui nous entoure.</p>
+      <p>Haec pictura contrastus inter umbram et lucem exprimit, cum notis flavi vivi quae in obscuro fundo emicant.
+      Camilla quaerit captare effimerum,
+      illos fugaces momenta in quibus lux novam dimensionem mundi circumdantis revelat.</p>
       </div>
       </div>
     </div>

@@ -7,10 +7,10 @@ function Sculptures() {
       <img src="images/sculpture_1.jpg" alt="Sculpture n°1" class="art-image" />
         <div class="art-description">
         <h3>Équilibre Éternel</h3>
-        <p>Cette sculpture en terre cuite représente un arbre majestueux dont les racines s'enroulent autour d'une pierre. 
-          Elle évoque la connexion profonde entre la nature et l'humanité. 
-          Les détails minutieux des feuilles et des branches rappellent la beauté fragile de l'environnement naturel. 
-          Cette œuvre invite le spectateur à réfléchir sur l'importance de préserver notre planète.</p>
+        <p>Haec scultura ex argilla facta arborem magnificam repraesentat, cuius radices circa lapidem se circumuoluunt.
+        Profundam connexionem inter naturam et humanitatem suggerit.
+        Minuti foliorum et ramorum details fragilitatem pulchritudinis naturae memorant.
+        Hoc opus spectatorem invitat ad cogitandum de necessitate nostrae planetae conservandae.</p>
         </div>
       </div>
 
@@ -18,10 +18,10 @@ function Sculptures() {
       <img src="images/sculpture_2.jpg" alt="Sculpture n°2" class="art-image" />
       <div class="art-description">
       <h3>Souffle de l'Âme</h3>
-      <p>Faite en acier inoxydable, cette sculpture moderne se dresse comme un hommage aux paysages urbains. 
-          Ses lignes épurées et géométriques évoquent la structure des bâtiments et des routes. 
-          La réflexion de la lumière sur sa surface métallique crée un jeu d'ombres et de reflets, symbolisant la dynamique de la vie en ville. 
-          Cette œuvre questionne notre relation avec l'espace urbain et son impact sur notre quotidien.</p>
+      <p>Facta ex ferro inoxydabili, haec sculptura moderna se erigit ut tributo ad paisagia urbana.
+      Lineae elegantes et geometricae structuram aedium et viarum evocant.
+      Reflexio luminis in superficie metallicae luminum et umbrarum lusionem creat, symbolizans dynamicam vitae in urbe.
+      Hoc opus interrogat nostram relationem cum spatio urbano et eius impactum in cotidianum nostrum.</p>
       </div>
       </div>
 
@@ -29,10 +29,10 @@ function Sculptures() {
       <img src="images/sculpture_3.jpg" alt="Sculpture n°3" class="art-image" />
       <div class="art-description">
       <h3>Ondes Silencieuses</h3>
-      <p>Cette sculpture en bois sculpté représente un mouvement fluide et gracieux, comme si la matière était animée par une force invisible. 
-          Les courbes et les formes organiques de l'œuvre inspirent un sentiment de légèreté et de sérénité. 
-          Cette pièce évoque l'idée que la beauté peut résider dans l'éphémère et l'intangible, 
-          invitant le spectateur à ressentir l'énergie vitale qui anime toute création.</p>
+      <p>Haec sculptura ex ligno sculpa fluens et graciosum motum repraesentat, quasi materia ab invisibili vi animaretur.
+      Curvae et formae organicae operis sensum levitatis et serenitatis inspirant.
+      Haec pars notionem evocat quod pulchritudo in effimero et intangibili residere potest,
+      spectatorem invitans ut sentiat energiam vitalem quae omnem creationem animat.</p>
       </div>
       </div>
     </div>
