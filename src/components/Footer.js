@@ -14,8 +14,10 @@ function Footer() {
           <Logo className="footer-logo" style={{ fill: '#05034F'}}/>
         </a>
       </p>
-      <p>&copy; 2024 duanrA. Ce projet est sous <a href="https://opensource.org/licenses/MIT" 
-      target="_blank" className="footer-email">licence MIT</a>.</p>
+      <p style={{textAlign: 'center',}}>
+        &copy; 2024 duanrA. Ce projet est sous<a href="https://opensource.org/licenses/MIT" 
+        target="_blank" className="footer-email"> licence MIT</a>.
+      </p>
     </footer>
   );
 }
