@@ -34,7 +34,7 @@
 
 .footer-email {
   color: #05034F;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .footer-logo:hover {
-  transform: scale(1.1); /* Effet d'agrandissement au survol */
+  transform: scale(1.5); /* Effet d'agrandissement au survol */
 }
 
 /* Responsivité du footer */
