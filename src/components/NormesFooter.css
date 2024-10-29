@@ -3,7 +3,17 @@
   margin-left: 20px;
   margin-right: 20px;
 }
-p{
+
+.text-height p {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  h3 {
+  font-size: small;
+  }
+  p {
   font-size: smaller;
   justify-content: center;
+  }
 }
