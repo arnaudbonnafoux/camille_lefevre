@@ -1,4 +1,9 @@
 .text-height{
   height: 100vh;
   margin-left: 20px;
+  margin-right: 20px;
+}
+p{
+  font-size: smaller;
+  justify-content: center;
 }
