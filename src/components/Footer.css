@@ -3,7 +3,8 @@
   background-color: #0a0b0a;
   padding: 1.5rem 1rem;
   position: relative;
-  bottom: 0;
+  bottom: 0px;
+  top:10px;
 }
 
 .footer p {

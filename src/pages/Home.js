@@ -10,20 +10,36 @@ function Home() {
           className="art-image"
         />
         <div className="art-description">
-          <h3>Le projet...</h3>
+          <h3>Le Projet...</h3>
           <p>
-          Camilla Lefèvre est artifex multiartium Gallica anno 1985 nata.
-          Naturae et humanarum relationum inspiratione permota,
-          per opera sua subtilia affectus et invisibilia vincula quae nos uniunt explorat.
-          Pictor et sculptor, Camilla artes et materias miscet ut opera simul sensilia et potentia creet.
-          Labor eius insignitur perpetua quaestione aequilibrii inter visibile et invisibile,
-          inter materiam brutam et subtilitatem singularum partium.
-          Opera sua in multis galeriis per Franciam et alias terras exhibuit, ubi sensibilitate sua et
-          singulari aditu favorem conciliavit.
+          Camillae Lefèvre ars naturam, identitatem, et lucis effectus subtiliter pertractat, 
+          miscens formas vivas cum texturis profundas cogitationes evocantibus. 
+          In pictura, colores intensos et tenues perluciditatis transitus adhibet, 
+          vitam et memoriae fragilitatem sublinens. In sculptura, materiam crassam et 
+          lepidam conjungit ut humanitatis essentiam exprimat et identitatis quaestiones propositas elevet. 
+          In delineationibus, lucem et umbras sic pertractat ut formae simplices profundum sensum et spiritum intimum revelent. 
+          Artis peritia Camillae, vita ac mundi harmoniae partes enucleans, contemplationem et cogitationem incitat.
+          </p>
+        </div>
+      </div>
+      <div className="art-item">
+        <img
+          src={`${process.env.PUBLIC_URL}/images/camille_lefèvre_2.jpg`}
+          alt="Sculpture n°1"
+          className="art-image"
+        />
+        <div className="art-description">
+          <h3>Biographie</h3>
+          <p>
+          Camilla Lefèvre est artifex francaise cuius opera varia sunt, per picturam, sculpturam, ac delineationem. 
+          Nata in Gallia, artem amat et ingenium adhibet ut formas et imagines captet quae vitam ac humanitatem exprimunt. 
+          Per penniculum et sculpturam, animi sensus ac pulchritudinem naturae humanae explorat, artem creans quae contemplationem 
+          et admirationem excitat.
           </p>
         </div>
       </div>
     </div>
+    
   );
 }
 
