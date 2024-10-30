@@ -9,10 +9,10 @@ function Footer() {
     <footer className="footer">
       <p className="footer-contact">
         <a href="mailto:contact@camillelefevre.com" className="footer-email">
-          <MailIcon className="footer-logo" style={{ fill: '#05034F' }}/>
+          <MailIcon className="footer-logo" style={{ fill: '#f5f5f5' }}/>
         </a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
-          <InstagramIcon className="footer-logo" style={{ fill: '#05034F' }}/>
+          <InstagramIcon className="footer-logo" style={{ fill: '#f5f5f5' }}/>
         </a>
       </p>
       <p style={{ textAlign: 'center' }}>

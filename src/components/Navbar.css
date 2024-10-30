@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-  background-color: #ACEDFF;
+  background-color: #0a0b0a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .navbar-logo h1 {
-  color: #05034F;
+  color: #f5f5f5;
   font-size: 2rem;
   margin: 0;
 }
@@ -25,14 +25,14 @@
 }
 
 .navbar-links a {
-  color: #05034F;
+  color: #f5f5f5;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
 .navbar-links a:hover {
-  color: #f5f5f5; /* Couleur de survol */
+  color: #340bfe; /* Couleur de survol */
 }
 
 /* Responsivité de la navbar */

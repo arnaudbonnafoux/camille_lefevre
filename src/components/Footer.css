@@ -1,13 +1,13 @@
 /* Footer */
 .footer {
-  background-color: #ACEDFF;
+  background-color: #0a0b0a;
   padding: 1.5rem 1rem;
   position: relative;
   bottom: 0;
 }
 
 .footer p {
-  color: #05034F;
+  color: #f5f5f5;
   margin: 0.5rem 10px; /* Espacement entre les paragraphes */
   font-size: 0.5rem;
 }
@@ -22,7 +22,7 @@
 }
 
 .footer-links a {
-  color: #05034F;
+  color: #f5f5f5;
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.3s ease;
@@ -33,13 +33,13 @@
 }
 
 .footer-email {
-  color: #05034F;
+  color: #f5f5f5;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 .footer-email:hover {
-  color: #f5f5f5;
+  color: #340bfe;
 }
 
 /* Aligner l'e-mail et l'icône Instagram sur la même ligne */
@@ -58,7 +58,7 @@
 }
 
 .footer-logo:hover {
-  transform: scale(1.5); /* Effet d'agrandissement au survol */
+  transform: scale(1.7); /* Effet d'agrandissement au survol */
 }
 
 /* Responsivité du footer */
