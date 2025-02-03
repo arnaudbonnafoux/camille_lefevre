@@ -16,7 +16,7 @@ function Footer() {
         </a>
       </p>
       <p style={{ textAlign: 'center' }}>
-        &copy; 2024 duanrA. Ce projet est sous <a href="https://opensource.org/licenses/MIT" 
+        &copy; 2025 duanrA. Ce projet est sous <a href="https://opensource.org/licenses/MIT" 
         target="_blank" rel="noopener noreferrer" className="footer-email">licence MIT</a>.
       </p>
       <p style={{ textAlign: 'center' }}>
