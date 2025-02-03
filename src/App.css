@@ -3,7 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #333;
+  color: #05034f;
   background-image: url('../public/images/BackgroundImage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@ h3 {
 
 p {
   text-align: justify;
-  color: #555;
+  /*color: #555;*/
 }
 
 /* Mise en page des images et du texte */
